@@ -1,2 +1,3 @@
 main*
 !main*.c
+.DS_Store
