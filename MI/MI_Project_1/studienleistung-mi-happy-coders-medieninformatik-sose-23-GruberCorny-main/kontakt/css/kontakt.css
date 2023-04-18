@@ -52,6 +52,9 @@ a:hover {
     color: #5983A9;
 }
 
+
+
+
 /* main */
 main {
     flex-flow: row wrap;
@@ -59,8 +62,8 @@ main {
     justify-content: flex-start;
 }
 .person {
-    height: 196.875px;
-    width: 350px;
+    height: 198px;
+    width: 352px;
     margin: 2%;
     padding: 2%;
     border: 1px solid black;
@@ -68,14 +71,18 @@ main {
     background-color: #4B5664;
 }
 .person-img {
-
-    width: 40%;
+    width: 56.25%;
 }
 .person-text {
     margin: 0;
     padding: 0;
     width: 60%;
     flex-direction: column;
+    overflow-y: scroll;
+    word-wrap: break-word;
+}
+.person-text-h1 {
+    margin: 0;
 }
 .person-text-p {
     margin: 0;
@@ -85,6 +92,8 @@ main {
     margin: 0;
     height: 40%;
 }
+
+
 
 
 /* footer */
@@ -99,10 +108,27 @@ main {
 }
 .footer-text {
     text-align: center;
-    font-size: small;
+    font-size: 15px;
     margin-top: 2px;
+
+    position: relative;
+    left: 20px;
+}
+.footer-ul-icone {
+    margin: 0 15px 0 15px;
 }
 
+
+/* links a */
+a{
+    margin: 0;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #5983A9;
+}
 
 /* borders for better working delet after work */
 .flex-container {
