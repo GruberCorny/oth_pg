@@ -52,6 +52,41 @@ a:hover {
     color: #5983A9;
 }
 
+/* main */
+main {
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.person {
+    height: 196.875px;
+    width: 350px;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 3%;
+    background-color: #4B5664;
+}
+.person-img {
+
+    width: 40%;
+}
+.person-text {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    flex-direction: column;
+}
+.person-text-p {
+    margin: 0;
+    height: 60%;
+}
+.person-text-a {
+    margin: 0;
+    height: 40%;
+}
+
+
 /* footer */
 .body-footer {
     flex-direction: column;
