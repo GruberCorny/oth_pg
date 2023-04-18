@@ -18,29 +18,29 @@
     padding: 2%;
 }
 /* header nav */
-.header-nav {
+.header-div_nav {
     flex-direction: row;
     width: 100%;
     align-items: center;
 }
-    .header-nav-titel {
+    .header-div_nav-titel {
         justify-content: flex-start;
         font-size: 20px;
         width: 50%;
     }
-    .header-nav-link {
+    .header-div_nav {
         justify-content: flex-end;
         font-size: 18px;
         width: 50%;
     }
-        .header-nav-link-webpage{
+        .header-div_nav-nav-ul{
             flex-flow: row wrap;
             justify-content: flex-end;
 
             list-style: none;
             width: 100%;
         }
-        .header-nav-link-webpage a{
+        .header-div_nav-nav-ul a{
             display: block;
             text-decoration: none;
         }
