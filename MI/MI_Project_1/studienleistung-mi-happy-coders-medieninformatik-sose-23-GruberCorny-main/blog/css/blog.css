@@ -1,0 +1,78 @@
+.flex-container flex-item{
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+}
+
+
+/* body */
+.body {
+    flex-direction: column;
+}
+/* header */
+.body-header{
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 2%;
+}
+/* header nav */
+.header-nav {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.header-nav-titel {
+    justify-content: flex-start;
+    font-size: 20px;
+    width: 50%;
+}
+.header-nav-link {
+    justify-content: flex-end;
+    font-size: 18px;
+    width: 50%;
+}
+.header-nav-link-webpage{
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+    list-style: none;
+    width: 100%;
+}
+.header-nav-link-webpage a{
+    display: block;
+    text-decoration: none;
+}
+a {
+    padding: 10px;
+    color: black;
+}
+a:hover {
+    color: #5983A9;
+}
+
+/* footer */
+.body-footer {
+    flex-direction: column;
+    padding: 2%;
+}
+.footer-ul-webpage {
+    list-style: none;
+    margin-bottom: 2px;
+    justify-content: center;
+}
+.footer-text {
+    text-align: center;
+    font-size: small;
+    margin-top: 2px;
+}
+
+
+/* borders for better working delet after work */
+.flex-container {
+    border: dashed red 1px;
+}
+.flex-item {
+    border: dashed blue 1px
+}

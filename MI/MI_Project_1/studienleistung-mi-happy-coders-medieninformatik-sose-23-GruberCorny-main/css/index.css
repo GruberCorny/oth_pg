@@ -1,0 +1,144 @@
+.flex-container flex-item{
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+}
+
+/* body */
+.body {
+    flex-direction: column;
+}
+
+/* header */
+.body-header{
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 2%;
+}
+/* header nav */
+.header-nav {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+    .header-nav-titel {
+        justify-content: flex-start;
+        font-size: 20px;
+        width: 50%;
+    }
+    .header-nav-link {
+        justify-content: flex-end;
+        font-size: 18px;
+        width: 50%;
+    }
+        .header-nav-link-webpage{
+            flex-flow: row wrap;
+            justify-content: flex-end;
+
+            list-style: none;
+            width: 100%;
+        }
+        .header-nav-link-webpage a{
+            display: block;
+            text-decoration: none;
+        }
+        a {
+            padding: 10px;
+            color: black;
+        }
+        a:hover {
+        color: #5983A9;
+        }
+
+/* header main */
+.header-main {
+    flex-direction: row;
+}
+.header-main-img_pc {
+    width: 50%;
+    height: 100%;
+}
+.header-main-text {
+    flex-direction: column;
+    width: 50%;
+    align-content: center;
+    padding: 2% 2% 0 2%;
+}
+.header-main-text-titel {
+    font-size: 37px;
+}
+.header-main-text-paragraph {
+    font-size: 37px;
+}
+
+/* body main */
+
+/* liste 123 */
+
+.body-main {
+    flex-direction: column;
+}
+.main-ordered_list {
+    flex-direction: column;
+}
+.main-ol-num {
+    font-size: 140px;
+}
+.main-ordered_list-point {
+    vertical-align: center;
+    horiz-align: center;
+    font-size: medium;
+    height: 33%;
+}
+
+
+/* service */
+.main-service {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-service-consulting {
+    width: 33%;
+    margin: 1%;
+    background-color: #f1f1f1;
+}
+.main-service-mobile_app {
+    width: 33%;
+    margin: 1%;
+    background-color: #f1f1f1;
+}
+.main-service-web_development {
+    width: 33%;
+    margin: 1%;
+    background-color: #f1f1f1;
+}
+
+/* footer */
+.body-footer {
+    flex-direction: column;
+    padding: 2%;
+}
+.footer-ul-webpage {
+    list-style: none;
+    margin-bottom: 2px;
+    justify-content: center;
+}
+.footer-text {
+    text-align: center;
+    font-size: small;
+    margin-top: 2px;
+}
+
+
+
+
+/* borders for better working delet after work */
+.flex-container {
+    border: dashed red 1px;
+}
+.flex-item {
+    border: dashed blue 1px
+}
+

@@ -1,0 +1,18 @@
+/* Basic Styles */
+
+#demomediaquery {
+    width: 500px;
+    font-family: 'PT Sans', Arial, sans-serif;
+    color:#ffffff;
+    padding: 2px;
+    background: #012840;
+    border: 4px solid #A7D4D9;
+}
+
+/* Sample media query to change properties of div element */
+@media only screen and (max-width: 600px) {
+    #demomediaquery {
+        background: #A7D4D9;
+        border-color: #590202;
+    }
+}

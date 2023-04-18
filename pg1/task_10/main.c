@@ -5,6 +5,7 @@
 #define MAX_NAME_LEN 50
 #define MAX_JOBNAME_LEN 25
 
+
 // Structure to store employee data
 typedef struct
 {
@@ -25,7 +26,7 @@ void load_employees(Employee **employees, int *num_employees);
 int main()
 {
     // Initialize employee data field
-    Employee *employees = NULL;
+    Employee *employees = 0;
     int num_employees = 0;
 
     // Load employee data from file
@@ -107,7 +108,7 @@ void add_employee(Employee **employees, int *num_employees)
 {
     // Increase size of employee data field by 1
     *employees = realloc(*employees, (*num_employees + 1) * sizeof(Employee));
-    if (*employees == NULL)
+    if (*employees == 0)
     {
         printf("Error allocating memory\n");
         return;
@@ -165,7 +166,7 @@ void delete_employee(Employee **employees, int *num_employees)
 
     // Decrease size of employee data field by 1
     *employees = realloc(*employees, (*num_employees - 1) * sizeof(Employee));
-    if (*employees == NULL)
+    if (*employees == 0)
     {
         printf("Error allocating memory\n");
         return;
@@ -179,7 +180,7 @@ void delete_employee(Employee **employees, int *num_employees)
 void save_employees(Employee *employees, int num_employees)
 {
     FILE *fp = fopen("employees.dat", "wb");
-    if (fp == NULL)
+    if (fp == 0)
     {
         printf("Error opening file\n");
         return;
@@ -198,7 +199,7 @@ void save_employees(Employee *employees, int num_employees)
 void load_employees(Employee **employees, int *num_employees)
 {
     FILE *fp = fopen("employees.dat", "rb");
-    if (fp == NULL)
+    if (fp == 0)
     {
         printf("Error opening file\n");
         return;
@@ -209,7 +210,7 @@ void load_employees(Employee **employees, int *num_employees)
 
     // Allocate memory for employee data
     *employees = malloc(*num_employees * sizeof(Employee));
-    if (*employees == NULL)
+    if (*employees == 0)
     {
         printf("Error allocating memory\n");
         return;
