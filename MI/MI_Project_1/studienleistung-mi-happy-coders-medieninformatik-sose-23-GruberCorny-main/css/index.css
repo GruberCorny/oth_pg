@@ -17,7 +17,7 @@ html {
 /* header */
 .body-header{
     flex-direction: column;
-    background-color: #f0f0f0;
+    background-color: #D2D4D9;
     padding: 2%;
 }
 
@@ -79,48 +79,48 @@ html {
     font-size: 37px;
 }
 
+
+
 /* body main */
+.body-main {
+    flex-direction: column;
+    justify-content: center;
+}
 
 /* liste 123 */
 
-.body-main {
-    flex-direction: column;
-}
+
 .main-ul {
     flex-direction: column;
-}
-.main-ul-num {
-    font-size: 140px;
-}
-.main-ul-text {
+     list-style-type: upper-roman;
+     counter-reset: list-counter;
+ }
 
-}
 .main-ul-point {
-    flex-direction: row;
-    font-size: medium;
-    height: 33%;
+    margin: 1% 0 1% 20%;
+    position: relative;
+    counter-increment: list-counter;
+}
+
+.main-ul-point::before {
+    content: counter(list-counter);
+    position: absolute;
+    left: -0.6em;
+    top: -30px;
+    font-size: 140px;
 }
 
 
 /* service */
 .main-service {
+    margin: 0 15% 0 15%;
+    width: 70%;
     flex-direction: row;
-    justify-content: space-between;
 }
-.main-service-consulting {
+.main-service-box {
     width: 33%;
-    margin: 1%;
-    background-color: #f1f1f1;
-}
-.main-service-mobile_app {
-    width: 33%;
-    margin: 1%;
-    background-color: #f1f1f1;
-}
-.main-service-web_development {
-    width: 33%;
-    margin: 1%;
-    background-color: #f1f1f1;
+    margin: 0 1% 0 1%;
+    background-color: #D2D4D9;
 }
 
 /* footer */

@@ -16,7 +16,7 @@ html {
 /* header */
 .body-header{
     flex-direction: column;
-    background-color: #f0f0f0;
+    background-color: #D2D4D9;
     padding: 2%;
 }
 /* header nav */
@@ -71,7 +71,7 @@ main {
     padding: 2%;
     border: 1px solid black;
     border-radius: 3%;
-    background-color: #4B5664;
+    background-color: #D2D4D9;
 }
 .person-img {
     width: 56.25%;
