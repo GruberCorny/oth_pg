@@ -33,27 +33,22 @@
     font-size: 18px;
     width: 50%;
 }
-.header-div_nav-nav-ul{
+.header-div_nav-nav-div_ul{
     flex-flow: row wrap;
     justify-content: flex-end;
 
     list-style: none;
     width: 100%;
 }
-.header-div_nav-nav-ul a{
+.header-div_nav-nav-div_ul-webside {
+    list-style: none;
+}
+.header-div_nav-nav-div_ul-icons {
+    list-style: none;
+}
+.header-div_nav-nav-div_ul a{
     display: block;
     text-decoration: none;
-}
-a {
-    padding: 10px;
-    color: black;
-}
-a:hover {
-    color: #5983A9;
-    text-decoration: underline;
-}
-.header-div_nav-nav-ul-twitch {
-    margin-left: 10px;
 }
 
 
@@ -126,15 +121,15 @@ main {
 
 
 /* links a */
-a{
-    margin: 0;
-    display: block;
-    text-decoration: none;
+a {
+    padding: 10px;
     color: black;
 }
 a:hover {
     color: #5983A9;
+    text-decoration: underline;
 }
+
 
 /* borders for better working delet after work */
 .flex-container {
