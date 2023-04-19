@@ -5,7 +5,9 @@
 .flex-container {
     display: flex;
 }
-
+html {
+    font-family: 'Poppins', sans-serif;
+}
 
 /* body */
 .body {

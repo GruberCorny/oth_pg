@@ -5,6 +5,9 @@
 .flex-container {
     display: flex;
 }
+html {
+    font-family: 'Poppins', sans-serif;
+}
 
 /* body */
 .body {
@@ -83,15 +86,17 @@
 .body-main {
     flex-direction: column;
 }
-.main-ordered_list {
+.main-ul {
     flex-direction: column;
 }
-.main-ol-num {
+.main-ul-num {
     font-size: 140px;
 }
-.main-ordered_list-point {
-    vertical-align: center;
-    horiz-align: center;
+.main-ul-text {
+
+}
+.main-ul-point {
+    flex-direction: row;
     font-size: medium;
     height: 33%;
 }
