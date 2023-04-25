@@ -31,11 +31,12 @@ html {
 .header-div_nav-titel {
     justify-content: flex-start;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 18px;
     width: 50%;
 }
 .header-div_nav-nav {
     justify-content: flex-end;
+    font-weight: 900;
     font-size: 18px;
     width: 50%;
 }
@@ -43,20 +44,24 @@ html {
     flex-flow: row wrap;
     justify-content: flex-end;
 
-    list-style: none;
-    width: 100%;
 }
-.header-div_nav-nav-div_ul-webside {
-    list-style: none;
+.header-div_nav-nav-div_ul-ul_webside {
+    margin: 0;
 }
-.header-div_nav-nav-div_ul-icons {
-    list-style: none;
+.header-div_nav-nav-div_ul-ul_webside-link {
+    margin: 0 10px 0 0;
 }
+.header-div_nav-nav-div_ul-ul_icons {
+    margin: 0;
+}
+.header-div_nav-nav-div_ul-ul_icons-icon {
+    margin: 0 0 0 15px;
+}
+
 .header-div_nav-nav-div_ul a{
     display: block;
     text-decoration: none;
 }
-
 
 
 /* header main */
@@ -109,9 +114,10 @@ html {
 .main-ul-point::before {
     content: counter(list-counter);
     position: absolute;
-    left: -0.6em;
-    top: -30px;
+    left: -0.7em;
+    top: -45px;
     font-size: 140px;
+    font-weight: 900;
 }
 
 
@@ -124,49 +130,51 @@ html {
 .main-service-box {
     width: 33%;
     margin: 0 1% 0 1%;
+    padding: 2%;
     background-color: #D2D4D9;
 }
 .main-service-box-icon {
     justify-content: center;
-    margin: 0;
+    margin:0;
 }
+
 
 /* footer */
 .body-footer {
     flex-direction: column;
-    padding: 2%;
+    margin: 0;
+    padding: 70px 0 0 0;
 }
 .footer-ul-webpage {
     list-style: none;
-    margin-bottom: 2px;
+    margin: 0;
     justify-content: center;
 }
 .footer-text {
     text-align: center;
     font-size: 15px;
-    margin-top: 2px;
+    margin: 5px 0 0 0;
 
     position: relative;
     left: 20px;
 }
 .footer-ul-icone {
-    margin: 0 15px 0 15px;
+    margin: 0 25px;
 }
 
 
 /* links a */
 a {
-    padding: 10px;
     color: black;
 }
 a:hover {
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 
 
-/* borders for better working delet after work */
+/* borders for better working delet after work
 .flex-container {
     border: dashed red 1px;
 }
