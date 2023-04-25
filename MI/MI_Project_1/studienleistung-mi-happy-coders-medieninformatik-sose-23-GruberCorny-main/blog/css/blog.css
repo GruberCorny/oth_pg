@@ -60,11 +60,11 @@ html {
 
 .main-div_main {
     justify-content: center;
-    flex-direction: row;
+    flex-flow: row wrap;
 }
 .main-div_main-div_colum {
     flex-direction: column;
-    width: 20%;
+    width: 300px;
     margin: 0 10px;
 }
 .main-div_main-div_colum-subject-img {
