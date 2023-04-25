@@ -61,39 +61,43 @@ html {
 /* main */
 main {
     flex-flow: row wrap;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .person {
-    height: 198px;
     width: 352px;
     margin: 2%;
     padding: 2%;
     border: 1px solid black;
     border-radius: 3%;
     background-color: #D2D4D9;
+    flex-direction: column;
 }
 .person-img {
-    width: 56.25%;
+    width: 100%;
 }
 .person-text {
     margin: 0;
     padding: 0;
-    width: 60%;
+
     flex-direction: column;
     overflow-y: scroll;
     word-wrap: break-word;
 }
 .person-text-h1 {
-    margin: 0;
+    margin: 10px 0 10px 0;
+    align-self: center;
 }
 .person-text-p {
     margin: 0;
     height: 60%;
 }
 .person-text-a {
-    margin: 0;
+
+    margin: 10px 0 0 0;
     height: 40%;
+}
+.mail .tel {
+    text-emphasis: none;
 }
 
 
