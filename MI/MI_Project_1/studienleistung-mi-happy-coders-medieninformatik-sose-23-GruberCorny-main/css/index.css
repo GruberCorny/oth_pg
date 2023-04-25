@@ -122,6 +122,10 @@ html {
     margin: 0 1% 0 1%;
     background-color: #D2D4D9;
 }
+.main-service-box-icon {
+    justify-content: center;
+    margin: 0;
+}
 
 /* footer */
 .body-footer {
