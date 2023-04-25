@@ -128,8 +128,8 @@ a {
     color: black;
 }
 a:hover {
-    color: #5983A9;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 
