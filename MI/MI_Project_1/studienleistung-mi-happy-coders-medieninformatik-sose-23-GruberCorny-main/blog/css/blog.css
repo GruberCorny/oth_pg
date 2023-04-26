@@ -45,6 +45,9 @@ html {
     justify-content: flex-end;
 
 }
+.header-div_nav-nav-div_ul-burger_icon {
+    display: none;
+}
 .header-div_nav-nav-div_ul-ul_webside {
     margin: 0;
 }
@@ -136,12 +139,18 @@ a:hover {
 }
 
 
+@media only screen and (width < 750px) {
 
+    /* nav bar */
+    .header-div_nav-nav-div_ul-ul_webside {
+        display: none;
+    }
+    .header-div_nav-nav-div_ul-ul_icons {
+        display: none;
+    }
+    .header-div_nav-nav-div_ul-burger_icon {
+        display: flex;
+    }
 
-/* borders for better working delet after work
-.flex-container {
-    border: dashed red 1px;
 }
-.flex-item {
-    border: dashed blue 1px
-}
+
