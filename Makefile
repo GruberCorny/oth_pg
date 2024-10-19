@@ -1,4 +1,6 @@
 
+test:
+	gcc -g DS/ueb4.c -o DS/ueb4 && ./DS/ueb4
 9:
 	gcc -g pg1/task_9/main.c -o pg1/task_9/main && ./pg1/task_9/main
 

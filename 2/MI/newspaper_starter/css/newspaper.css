@@ -1,0 +1,10 @@
+/* font configurations */
+@font-face {
+    font-family: Roboto Condensed Light;
+    src: url("../fonts/RobotoCondensed-Light.ttf"); 
+}
+
+/* Basic Styles */
+body {
+    font-family: 'Roboto Condensed Light';
+}

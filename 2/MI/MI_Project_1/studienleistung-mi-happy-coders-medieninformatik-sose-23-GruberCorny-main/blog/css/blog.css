@@ -1,0 +1,156 @@
+.flex-container flex-item{
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+}
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* body */
+.body {
+    flex-direction: column;
+}
+/* header */
+.body-header{
+    flex-direction: column;
+    background-color: #D2D4D9;
+    padding: 2%;
+}
+
+
+/* header nav */
+.header-div_nav {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.header-div_nav-titel {
+    justify-content: flex-start;
+    font-weight: 900;
+    font-size: 18px;
+    width: 50%;
+}
+.header-div_nav-nav {
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 18px;
+    width: 50%;
+}
+.header-div_nav-nav-div_ul{
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+}
+.header-div_nav-nav-div_ul-burger_icon {
+    display: none;
+}
+.header-div_nav-nav-div_ul-ul_webside {
+    margin: 0;
+}
+.header-div_nav-nav-div_ul-ul_webside-link {
+    margin: 0 10px 0 0;
+}
+.header-div_nav-nav-div_ul-ul_icons {
+    margin: 0;
+}
+.header-div_nav-nav-div_ul-ul_icons-icon {
+    margin: 0 0 0 15px;
+}
+
+.header-div_nav-nav-div_ul a{
+    display: block;
+    text-decoration: none;
+}
+
+
+/* main body */
+
+.main-div_main {
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 20px 0;
+}
+.main-div_main-div_colum {
+    flex-direction: column;
+    width: 300px;
+    margin: 0 20px;
+}
+.main-div_main-div_colum-subject {
+    margin: 40px 0 0 0;
+}
+.main-div_main-div_colum-subject-img {
+    width: 100%;
+}
+.main-div_main-div_colum-subject-p {
+    padding: 0;
+    margin: 0;
+}
+.main-div_main-div_colum-subject-read_more {
+    margin: 0;
+    text-decoration: underline;
+}
+.main-div_main-div_colum-subject-read_more:hover {
+    color: #590202;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* footer */
+.body-footer {
+    flex-direction: column;
+    margin: 0;
+    padding: 70px 0 0 0;
+}
+.footer-ul-webpage {
+    list-style: none;
+    margin: 0;
+    justify-content: center;
+}
+.footer-text {
+    text-align: center;
+    font-size: 15px;
+    margin: 5px 0 0 0;
+
+    position: relative;
+    left: 20px;
+}
+.footer-ul-icone {
+    margin: 0 25px;
+}
+
+
+/* links a */
+a {
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+@media only screen and (width < 750px) {
+
+    /* nav bar */
+    .header-div_nav-nav-div_ul-ul_webside {
+        display: none;
+    }
+    .header-div_nav-nav-div_ul-ul_icons {
+        display: none;
+    }
+    .header-div_nav-nav-div_ul-burger_icon {
+        display: flex;
+    }
+
+}
+

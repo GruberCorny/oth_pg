@@ -1,0 +1,8 @@
+$color1 : yellow;
+$color2 : green;
+
+h1 {
+    color: $color2;
+    background-color: $color1;
+    padding: 3em;
+}

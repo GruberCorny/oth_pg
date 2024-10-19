@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        link(rel='stylesheet' href='stylesheets/styles.css')
+body
+    h1 My first web form
+
+    form(id="mail_form", action="/welcome", method="post")
+        div
+            label(for="name") Name:
+            input(type="text", name="name", id="name")
+        div
+            label(for="mail") E-mail:
+            input(type="email", name="email" id="mail")
+        div
+            label(for="msg") Message:
+            textarea(id="msg" name="msg")
+        div(class="button")
+            button(type="submit") Send your message

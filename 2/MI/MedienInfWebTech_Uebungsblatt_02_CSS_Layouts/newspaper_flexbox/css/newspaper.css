@@ -1,0 +1,36 @@
+/* font configurations */
+@font-face {
+    font-family: Roboto Condensed Light;
+    src: url("../fonts/RobotoCondensed-Light.ttf"); 
+}
+
+/* Basic Styles */
+body {
+    font-family: 'Roboto Condensed Light';
+    width: 860px;
+    margin: auto;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#header {
+    border-bottom: 1px solid #777;
+    margin-bottom: 10px;
+}
+.headline {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.article-img{
+    margin-right: 10px;
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
